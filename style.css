@@ -56,6 +56,11 @@ body {
     font-weight: 800;
 }
 
+.card .content h2:hover {
+    cursor: pointer;
+    color: var(--yellow);
+}
+
 .card .content p:last-of-type {
     color: var(--gray-500);
     line-height: 1.6;
